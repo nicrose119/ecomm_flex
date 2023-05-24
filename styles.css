@@ -10,3 +10,39 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.topnav {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-self: auto;  
+}
+
+.topnav a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    color:#000000;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 10px;
+  
+}
+
+.topnav-center {
+  display: flex;
+  align-items: center;
+  justify-content:stretch;
+}
+
+.topnav-right {
+   display: flex;
+   align-items: flex-end;
+   justify-content: right;
+}
